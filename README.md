@@ -6,13 +6,9 @@
 - npm 6.14.6
 - vue/cli 4.5.6
 - Firebase
-- Vuex,
+- Vuex
 - Vuetify
 - font awesome
 - Gmail
 
 # URL
-
-# ワイヤーフレーム
-
-<https://docs.google.com/spreadsheets/d/1gWQ4NPT4yC9tqFeyIwqQnmAw9njyRh-bxIugf3O60qg/edit?usp=sharing>
