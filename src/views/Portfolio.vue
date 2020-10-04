@@ -1,3 +1,3 @@
 <template>
-  <h1>Portfolio</h1>
+  <font-awesome-icon icon="fas" class="nav-icon"/>
 </template>
