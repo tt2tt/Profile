@@ -1,6 +1,8 @@
 <template>
   <div id="portfolio">
     <v-container>
+      <!-- <font-awesome-icon icon="folder" id="folder"/> -->
+      <h1>Portfolio</h1>
       <v-row>
         <ul v-for="portfolio in portfolios" :key="portfolio.name">
           <v-col cols="12" sm="8" md="4" lg="4" xl="3">
@@ -82,6 +84,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
+#portfolio h1{
+  font-size: 40px;
+  text-align: center;
+}
 #portfolio img{
   height: 200px;
   width: 350px;

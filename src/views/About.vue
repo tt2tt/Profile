@@ -2,7 +2,7 @@
   <div id="about">
     <v-img :src="require('../assets/profile_img.jpg')" id="profile_img" />
     <div id="detail">
-      <font-awesome-icon icon="user-circle" id="user"/>
+      <!-- <font-awesome-icon icon="user-circle" id="user"/> -->
       <h1>About</h1>
       <table>
         <tbody>
@@ -58,16 +58,12 @@ export default{
 #detail{
   float: right;
   position: absolute;
-  top: 140px;
+  top: 120px;
   right: 300px;
 }
 #detail h1{
   font-size: 40px;
-  display: inline;
-  margin-left: 20px;
-}
-#detail #user{
-  font-size: 40px;
+  text-align: center;
 }
 #detail th,td{
   padding-top: 25px;
