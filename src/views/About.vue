@@ -2,7 +2,6 @@
   <div id="about">
     <v-img :src="require('../assets/profile_img.jpg')" id="profile_img" />
     <div id="detail">
-      <!-- <font-awesome-icon icon="user-circle" id="user"/> -->
       <h1>About</h1>
       <table>
         <tbody>

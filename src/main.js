@@ -7,14 +7,14 @@ import VueParticles from 'vue-particles'
 import VueTyperPlugin from 'vue-typer'
 import 'normalize.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faUserCircle,faFolder,faGlobe,faBlog,faBirthdayCake,faImage } from '@fortawesome/free-solid-svg-icons'
-import { faTwitter,faGithub,faHtml5,faCss3Alt,faJsSquare } from '@fortawesome/free-brands-svg-icons'
+import { faUserCircle,faFolder,faEnvelope,faGlobe,faBlog,faBirthdayCake,faImage } from '@fortawesome/free-solid-svg-icons'
+import { faTwitter,faFacebook,faGithub,faHtml5,faCss3Alt,faJsSquare } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 Vue.use(VueParticles)
 Vue.use(VueTyperPlugin)
 
-library.add(faUserCircle,faFolder,faGlobe,faBlog,faBirthdayCake,faImage,faTwitter,faGithub,faHtml5,faCss3Alt,faJsSquare)
+library.add(faUserCircle,faFolder,faEnvelope,faGlobe,faBlog,faBirthdayCake,faImage,faTwitter,faFacebook,faGithub,faHtml5,faCss3Alt,faJsSquare)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
