@@ -68,4 +68,10 @@
 .jQuery{
   // background-color: blue;
 }
+
+@media screen and (max-width: 960px){
+  #over{
+    margin-left: 0;
+  }
+}
 </style>

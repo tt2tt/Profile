@@ -95,6 +95,9 @@ export default {
 #portfolio ul{
   padding-left: 0px;
 }
+#portfolio ul{
+  margin: auto;
+}
 .card {
   display: inline-block;
   margin-left: 20px;
