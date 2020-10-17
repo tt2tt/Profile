@@ -1,7 +1,6 @@
 <template>
   <div id="portfolio">
     <v-container>
-      <!-- <font-awesome-icon icon="folder" id="folder"/> -->
       <h1>Portfolio</h1>
       <v-row>
         <ul v-for="portfolio in portfolios" :key="portfolio.name">
@@ -43,7 +42,7 @@ export default {
           img: require('../assets/5ch_clone.png'),
           technic: 'Rails, Heroku',
           link: 'https://boiling-tor-99502.herokuapp.com',
-          github: '',
+          github: 'https://github.com/tt2tt/5ch_clone',
         },
         {
           name: 'Share Brain',
@@ -58,8 +57,8 @@ export default {
           detail: '私のプロフィールサイト',
           img: require('../assets/profile_site.png'),
           technic: 'Vue.js, Firebase',
-          link: '',
-          github: '',
+          link: 'https://tt2tt-profile-page.web.app/',
+          github: 'https://github.com/tt2tt/Profile',
         },
         {
           name: '雑記学習帳',
@@ -88,47 +87,42 @@ export default {
   font-size: 40px;
   text-align: center;
 }
-#portfolio img{
-  // height: 200px;
-  // width: 350px;
-}
 #portfolio ul{
   padding-left: 0px;
 }
 #portfolio ul{
   margin: auto;
 }
-.card {
+#portfolio .card {
   display: inline-block;
-  // margin-left: 20px;
   height: 370px;
   width: 350px;
   background: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 5px #ccc;
 }
-.card-img {
+#portfolio .card-img {
   height: 200px;
   width: 350px;
 }
-.card-content {
+#portfolio .card-content {
   padding: 20px;
 }
-.card-title {
+#portfolio .card-title {
   font-size: 20px;
   margin-bottom: 20px;
   text-align: center;
   color: #333;
 }
-.card-text {
+#portfolio .card-text {
   color: #777;
   font-size: 14px;
   line-height: 1.5;
 }
-.card-lang{
+#portfolio .card-lang{
   font-weight: 500;
 }
-.card-link{
+#portfolio .card-link{
   border: 1px solid #00aaff;
   text-decoration: none;
   color: #00aaff;
@@ -136,27 +130,25 @@ export default {
   padding: 5px 10px;
   border-radius: 5px;
 }
-.card-link:hover {
+#portfolio .card-link:hover {
   font-weight: 700;
 }
-.github-link{
+#portfolio .github-link{
   border-color: #171515;
   color: #171515;
 }
-.card p{
+#portfolio .card p{
   text-align: center;
 }
-.card .links{
+#portfolio .card .links{
   text-align: center;
 }
-
 @media screen and (max-width: 600px){
-  .card {
-    // margin-left: 0px;
+  #portfolio .card {
     height: 330px;
     width: 270px;
   }
-  .card-img {
+  #portfolio .card-img {
     height: 160px;
     width: 270px;
   }

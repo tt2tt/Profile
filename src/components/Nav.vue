@@ -29,16 +29,16 @@
 </template>
 
 <style scoped lang="scss">
-  header a{
+  header #navs a{
     color: #000;
     text-decoration: none;
     padding: 20px;
   }
-  #nav{
+  #navs #nav{
     margin: 7px auto;
     font-size: 25px;
   }
-  #sumaho-nav{
+  #navs #sumaho-nav{
     margin: 10px auto;
     font-size: 20px;
   }

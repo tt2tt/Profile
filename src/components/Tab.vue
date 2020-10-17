@@ -6,18 +6,14 @@
           v-model="tab"
           white
         >
-
           <v-tab
             v-for="item in items"
             :key="item.tab"
           >
-
            {{ item.tab }}
-
           </v-tab>
         </v-tabs>
       </div>
-
       <v-tabs-items v-model="tab">
         <v-tab-item
           v-for="item in items"
@@ -53,44 +49,38 @@
 #tabs{
   margin: auto;
 }
-#over{
+#tabs #over{
   margin-left: 25%;
 }
 #tabs .v-card{
   width: 700px;
   margin: auto;
 }
-.v-card__text{
-  // color: white!important;
+#tabs .v-card__text{
   font-size: 26px;
   text-align:  center;
   white-space: pre-wrap;
 }
-.jQuery{
-  // background-color: blue;
-}
 
 @media screen and (max-width: 600px){
-  #over{
+  #tabs #over{
     margin-left: 30px;
   }
   #tabs .v-card{
-    // width: 500px;
-    // margin: inherit;
     margin-left: 30;
   }
-  // .v-slide-group__prev{
-  //   width: 0;
-  // }
 }
 @media screen and (max-width: 380px){
-  #over{
+  #tabs #over{
     margin-left: 0px;
+  }
+  #tabs .v-tab{
+    margin-left: -8px;
   }
 }
 @media screen and (max-width: 330px){
   #tabs .v-tab{
-    margin-left: -17px;
+    margin-left: -19px;
   }
 }
 </style>

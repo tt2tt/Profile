@@ -58,7 +58,6 @@ export default{
   margin-top: 100px;
   margin-left: 180px;
   margin-right: 20px;
-  // text-align: center;
   display: inline;
   text-align:  center;
 }
@@ -66,48 +65,30 @@ export default{
   height: 330px;
   width: 330px;
   border-radius: 330px;
-  // margin-top: 10%;
-  // margin-left: 20%;
-  // position: relative;
 }
-#detail{
-  // float: right;
-  // position: absolute;
-  // top: 120px;
-  // right: 300px;
+#about #detail{
   margin-top: 70px;
 }
-#detail h1{
+#about #detail h1{
   font-size: 40px;
   text-align: center;
 }
 #detail table{
   margin: auto;
 }
-#detail th,td{
+#about #detail th,td{
   padding-top: 25px;
   font-size: 20px;
 }
-#detail td{
+#about #detail td{
   padding-left: 20px;
 }
 @media screen and (max-width: 960px){
   #about #img-aria{
-    // width: 100%;
-    // margin: 100px, 0px,0px;
     margin-left: 0px;
   }
   #about #profile_img{
     margin: auto;
-    // position: absolute;
-    // margin-left: -80px;
-
-  }
-  #about #detail-aria{
-    // position: relative;
-  }
-  #about #tar{
-    // margin: auto;
   }
 }
 

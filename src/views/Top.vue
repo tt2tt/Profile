@@ -21,24 +21,12 @@
       >
       </vue-particles>
 
-      <!-- <p id="top-1">Hello My name is Taro</p> -->
-      <!-- <p id="top-2">Welcome to My Profile Site</p> -->
       <vue-typed-js :strings="['Hello My name is Taro']" :type-speed="100">
         <h1 class="typing greeting1"></h1>
       </vue-typed-js>
       <vue-typed-js :strings="['Welcome to My Profile Site']" :type-speed="100" :startDelay="2900">
         <h1 class="typing greeting2"></h1>
       </vue-typed-js>
-
-      <!-- <vue-typer :text="['Hello My name is Taro \nWelcome to My Profile Site \n']"
-        class="top-text"
-        :repeat='0'
-         :preTypeDelay="1000"
-         :typeDelay="120"
-         :preEraseDelay="5000"
-         :eraseDelay="2000"
-         >
-       </vue-typer> -->
 
    </v-container>
   </div>
@@ -52,20 +40,13 @@
   #top{
     height: 100%;
     width: 100%;
-    // height: 750px;
-    // width: 2000px;
     background-image: url('../assets/sea_of_night.png');
-    // background-image: url('../assets/space.jpg');
-    // background-position: center;
-    // background-repeat: no-repeat;
-    // background-attachment: fixed;
-    // background-size: cover;
-
-    // background-size: contain;
+  }
+  #top .container .container--fluid{
+    height: 100%;
   }
   #top #particles-js{
-    // height: 600px!important;
-    // display: inline;
+    height: 100%;
     position: relative;
   }
   #top .typing{
@@ -85,55 +66,28 @@
   #top .greeting2{
     top: 30%;
   }
-  // .top-text{
-  //   color: #fff!important;
-  // }
-  // .vue-typer{
-  //   font-size: 40px;
-  //   color: #fff;
-  // }
-  // .vue-typer .custom.char{
-  //   color: aliceblue!important;
-  // }
-  // #top .vue-typer .typed {
-  //   color: #fff!important;
-  //   font-size: 80px;
-  // }
   #top p{
     font-size: 50px;
     color: #fff;
     position: absolute;
   }
-  #top-1{
-    top: 130px;
-    left: 120px;
-  }
-  #top-2{
-    top: 220px;
-    left: 120px;
-  }
 
   @media screen and (max-width: 960px){
     #top{
-      // width: 1660px;
       height: 100%;
       width: 100%;
-      // background-image: none;
-      // background-color: #000;
     }
-    #top .container .container--fluid{
+    #top #particles-js{
       height: 100%;
-    }
-    #top .particles-js-canvas-el{
-    }
-    #top .typing{
-      // font-size: 30px;
     }
   }
 
   @media screen and (max-width: 600px){
     #top .typing{
       font-size: 25px;
+    }
+    #top #particles-js{
+      height: 400px;
     }
   }
 </style>
