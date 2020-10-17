@@ -1,4 +1,4 @@
-# 自己紹介ページ
+# プロフィールサイト
 
 # 使用技術
 
@@ -9,6 +9,7 @@
 - Vuex
 - Vuetify
 - font awesome
-- Gmail
 
 # URL
+
+<https://tt2tt-profile-page.web.app/>
