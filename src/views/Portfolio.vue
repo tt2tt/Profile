@@ -7,7 +7,7 @@
         <ul v-for="portfolio in portfolios" :key="portfolio.name">
           <v-col cols="12" sm="8" md="4" lg="4" xl="3">
             <li class="card">
-              <img v-bind:src="portfolio.img">
+              <img v-bind:src="portfolio.img" class="card-img">
               <p class="card-title">{{ portfolio.name }}</p>
               <p class="card-text">{{ portfolio.detail }}</p>
               <p class="card-lang">{{ portfolio.technic }}</p>
@@ -89,8 +89,8 @@ export default {
   text-align: center;
 }
 #portfolio img{
-  height: 200px;
-  width: 350px;
+  // height: 200px;
+  // width: 350px;
 }
 #portfolio ul{
   padding-left: 0px;
@@ -100,7 +100,7 @@ export default {
 }
 .card {
   display: inline-block;
-  margin-left: 20px;
+  // margin-left: 20px;
   height: 370px;
   width: 350px;
   background: #fff;
@@ -108,9 +108,8 @@ export default {
   box-shadow: 0 2px 5px #ccc;
 }
 .card-img {
-  border-radius: 5px 5px 0 0;
-  width: 100%;
-  height: auto;
+  height: 200px;
+  width: 350px;
 }
 .card-content {
   padding: 20px;
@@ -149,5 +148,17 @@ export default {
 }
 .card .links{
   text-align: center;
+}
+
+@media screen and (max-width: 600px){
+  .card {
+    // margin-left: 0px;
+    height: 330px;
+    width: 270px;
+  }
+  .card-img {
+    height: 160px;
+    width: 270px;
+  }
 }
 </style>

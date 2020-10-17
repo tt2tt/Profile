@@ -41,7 +41,7 @@
         tab: null,
         items: [
           { tab: 'フロントエンド', content1: 'HTML&CSS', content2: "jQuery", content3: "Vue.js" },
-          { tab: 'バックエンド', content1: 'Ruby（Ruby on Rails）' },
+          { tab: 'バックエンド', content1: 'Ruby \n（Ruby on Rails）' },
           { tab: 'その他', content1: 'AWS' , content2: 'ITパスポート'},
         ],
       }
@@ -64,14 +64,33 @@
   // color: white!important;
   font-size: 26px;
   text-align:  center;
+  white-space: pre-wrap;
 }
 .jQuery{
   // background-color: blue;
 }
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 600px){
   #over{
-    margin-left: 0;
+    margin-left: 30px;
+  }
+  #tabs .v-card{
+    // width: 500px;
+    // margin: inherit;
+    margin-left: 30;
+  }
+  // .v-slide-group__prev{
+  //   width: 0;
+  // }
+}
+@media screen and (max-width: 380px){
+  #over{
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 330px){
+  #tabs .v-tab{
+    margin-left: -17px;
   }
 }
 </style>

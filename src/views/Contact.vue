@@ -48,4 +48,11 @@
 #contact #github{
   color: #000;
 }
+
+@media screen and (max-width: 600px){
+  #contact a{
+    margin: 20px;
+    font-size: 30px;
+  }
+}
 </style>

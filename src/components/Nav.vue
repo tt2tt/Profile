@@ -33,9 +33,13 @@
     color: #000;
     text-decoration: none;
     padding: 20px;
+  }
+  #nav{
+    margin: 7px auto;
     font-size: 25px;
   }
-  #navs{
-    margin: 7px auto;
+  #sumaho-nav{
+    margin: 10px auto;
+    font-size: 20px;
   }
 </style>

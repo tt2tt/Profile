@@ -92,9 +92,15 @@ export default{
   padding-left: 20px;
 }
 @media screen and (max-width: 960px){
+  #about #img-aria{
+    // width: 100%;
+    // margin: 100px, 0px,0px;
+    margin-left: 0px;
+  }
   #about #profile_img{
+    margin: auto;
     // position: absolute;
-    margin-left: -80px;
+    // margin-left: -80px;
 
   }
   #about #detail-aria{
@@ -102,6 +108,23 @@ export default{
   }
   #about #tar{
     // margin: auto;
+  }
+}
+
+@media screen and (max-width: 600px){
+  #about #img-aria{
+    margin-top: 20px;
+  }
+  #about #detail{
+    margin-top: 0;
+  }
+  #about h1{
+    margin-bottom: 0;
+  }
+  #about #profile_img{
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
   }
 }
 </style>
