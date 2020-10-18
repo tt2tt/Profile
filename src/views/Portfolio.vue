@@ -45,7 +45,7 @@ export default {
           github: 'https://github.com/tt2tt/5ch_clone',
         },
         {
-          name: 'Share Brain',
+          name: 'Share Brain(サーバー停止中)',
           detail: '学習したことの説明を共有するアプリ',
           img: require('../assets/sharebrain.png'),
           technic: 'Rails, jQuery, AWS',
