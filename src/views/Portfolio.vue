@@ -64,7 +64,7 @@ export default {
           name: '雑記学習帳',
           detail: '技術ブログ',
           img: require('../assets/zakki.png'),
-          technic: '現在約90記事, 月間約900PV',
+          technic: '現在約100記事, 月間約1100PV',
           link: 'https://twin-t.com',
           github: '',
         },
